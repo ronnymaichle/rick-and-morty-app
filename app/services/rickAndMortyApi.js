@@ -25,7 +25,7 @@ export async function getCharacterImage(name) {
       if (results && results.length > 0) {
         // assumption: we only want exact matches.
         const filteredResults = results.filter(
-          (result) => result.name.toLowerCase() === name.toLocaleLowerCase()
+          (result) => result.name.toLowerCase() === name.toLowerCase()
         );
         // if filteredResults still contains multiple results with the same name, then pick a random image
         if (filteredResults.length > 0) {
