@@ -16,7 +16,7 @@ It utilizes Expo Go. I was only able to test it on iOS devices because I could n
 npm install
 ```
 
-&
+AND
 
 ```sh
 npm run ios
